@@ -19,19 +19,19 @@ local loaded_highlights = {}
 -- table to map mode to highlight suffixes
 local mode_to_highlight = {
   ['VISUAL'] = '_visual',
-  ['V-BLOCK'] = '_visual',
+  ['V-BLOK'] = '_visual',
   ['V-LINE'] = '_visual',
   ['SELECT'] = '_visual',
   ['S-LINE'] = '_visual',
-  ['S-BLOCK'] = '_visual',
-  ['REPLACE'] = '_replace',
-  ['V-REPLACE'] = '_replace',
+  ['S-BLOK'] = '_visual',
+  ['REPLCE'] = '_replace',
+  ['V-REPL'] = '_replace',
   ['INSERT'] = '_insert',
-  ['COMMAND'] = '_command',
-  ['EX'] = '_command',
-  ['MORE'] = '_command',
-  ['CONFIRM'] = '_command',
-  ['TERMINAL'] = '_terminal',
+  ['COMMND'] = '_command',
+  ['EXMODE'] = '_command',
+  ['-MORE-'] = '_command',
+  ['CONFRM'] = '_command',
+  ['TERMNL'] = '_terminal',
 }
 
 --- Get highlight suffix for current mode, or inactive if not focused
